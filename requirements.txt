@@ -11,4 +11,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 tensorflow==2.0.0.b1
 keras==2.4.1
-h5py==2.10.1
+h5py==2.10.0
