@@ -3,11 +3,12 @@ from flask import Flask, render_template, request
  
 import numpy as np
 import os
+import tensorflow as tf
  
-from keras.preprocessing.image import load_img
-from keras.preprocessing.image import img_to_array
-from keras.models import load_model
-from keras.models import model_from_json
+from tensorflow.keras.preprocessing.image import load_img
+from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.models import load_model
+from tensorflow.keras.models import model_from_json
 
 
 json_file = open('/model/model.json', 'r')
