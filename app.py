@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.models import model_from_json
 
 
-model=load_model('/home/ubuntu/model/cat.h5')
+model=load_model('/model/cat.h5')
 
 
 
